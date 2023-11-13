@@ -115,7 +115,7 @@ const inspirationList = [
   const successMessage2 = document.getElementById("successMessage2");
   const inspirationText2 = document.getElementById("inspiration-text2");
   
-  copyButton.addEventListener("click", function () {
+  copyButton2.addEventListener("click", function () {
     const textToCopy2 = inspirationText2.innerText;
     const textArea2 = document.createElement("textarea");
     textArea2.value = textToCopy2;
