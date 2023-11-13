@@ -83,7 +83,7 @@ const inspirationList = [
     }, 2000);
   });
 
-  function generateInspiration() {
+  function generateChallenge() {
     const inspirationText2 = document.getElementById("inspiration-text2");
     const randomIndex = Math.floor(Math.random() * challengesList.length);
     const randomItem = challengesList[randomIndex];
@@ -98,7 +98,7 @@ const inspirationList = [
   }
   
   const generateButton2 = document.getElementById("generate-button2");
-  generateButton2.addEventListener("click", generateInspiration);
+  generateButton2.addEventListener("click", generateChallenge);
   
   document.addEventListener("DOMContentLoaded", function () {
     const showSectionLink2 = document.getElementById("show-section-link2");
