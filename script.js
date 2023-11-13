@@ -124,10 +124,10 @@ const inspirationList = [
     document.execCommand("copy");
     document.body.removeChild(textArea2);
   
-    successMessage.style.display = "block";
+    successMessage2.style.display = "block";
   
     setTimeout(function () {
-      successMessage.style.display = "none";
+      successMessage2.style.display = "none";
     }, 2000);
   });
   
